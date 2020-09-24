@@ -1,5 +1,5 @@
 <script>
-
+  export let progress = 30;
 </script>
 
 <style>
@@ -15,8 +15,8 @@
 
 <div bp="grid">
   <div bp="offset-5@md 4@md 12@sm" class="progress-container">
-    <div class="progress-bar" style="width: 20%">
-      <span class="st-only">12%</span>
+    <div class="progress-bar" style="width: {progress}%">
+      <span class="st-only">{progress}%</span>
     </div>
   </div>
 </div>
